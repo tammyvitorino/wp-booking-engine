@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 body {
-    margin-bottom: 100px!important;
+    margin-bottom: 50px!important;
 }
 .motor-reserva{
     width:100%;;
@@ -42,7 +42,7 @@ body {
     display: table;
 }
 
-.motor-reserva .flatpicker-omnibees-be {
+.motor-reserva .flatpicker {
     display: inline-block;
     vertical-align:top;
     padding: 5px;
@@ -50,7 +50,7 @@ body {
     border-right: 1px solid rgba(0,0,0,0.2);
     border-left: 1px solid rgba(0,0,0,0.2);
 }
-.motor-reserva .flatpicker-omnibees-be .input-button {
+.motor-reserva .flatpicker .input-button {
     display: inline-block;
     vertical-align: middle;
     height: 35px;
@@ -61,13 +61,13 @@ body {
     fill: #484848;
 }
 
-.motor-reserva .flatpicker-omnibees-be input {
+.motor-reserva .flatpicker input {
     height: 53px!important;
     width: 240px!important;
-    padding: 0 5px;
+    padding: 0 15px;
     margin: 0!important;
     display: inline-block;
-    font-size: 18px!important;
+    font-size: 14px!important;
     border: none!important;
     background: transparent!important;
     text-align: left;
@@ -97,7 +97,7 @@ body {
 
 .motor-reserva .select-sim::after {
     content:"￬";
-    font-size: 18px;
+    font-size: 12px;
     color: #484848;
     font-family:arial;
     position:absolute;
@@ -188,7 +188,7 @@ body {
 }
 .motor-reserva .hospedes #lista-hospede {
     padding: 0 10px;
-    font-size: 18px;
+    font-size: 14px;
     color: #484848;
     height: 55px;
     display: table-cell;
@@ -223,7 +223,7 @@ body {
 
 .motor-reserva #box-hospede h3{
     font-weight: bold;
-    font-size: 14px!important;
+    font-size: 12px!important;
     margin: 0 0 20px;
     color: #484848;
 }
@@ -238,14 +238,14 @@ body {
     font-size: 14px;
 }
 .motor-reserva #box-hospede span{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
     float: left;
     vertical-align: middle;
     padding: 8px 0
 }
 .motor-reserva #box-hospede select{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
     float: right;
     margin-left: 20px;
@@ -298,9 +298,9 @@ body {
     margin-left: 15px;
 }
 .motor-reserva #box-hospede #output input {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
-    float: right;
+    float: right;o
     margin-left: 20px;
     border: 1px solid rgba(169, 169, 169,1);
     border-radius: 2px;
@@ -336,7 +336,7 @@ body {
 .motor-reserva #codigo-promocional input {
     border: none;
     background: transparent;
-    font-size: 16px;
+    font-size: 14px;
 }   
 .motor-reserva #code::placeholder{
   color: #bbb!important;
@@ -389,7 +389,7 @@ body {
     right: -10px;
     top: -10px;
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
 }
 .motor-reserva #aviso-reserva{
     width: 165px;
@@ -431,7 +431,7 @@ body {
 
 /*MOBILE*/
 @media (max-width: 767px) {
-    .motor-reserva .flatpicker-omnibees-be,
+    .motor-reserva .flatpicker,
     .motor-reserva .hospedes,
     .motor-reserva #codigo-promocional{
         display: none;
